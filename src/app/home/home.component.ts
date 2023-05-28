@@ -8,15 +8,15 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) { }   //added line
 
   ngOnInit(): void {
   }
   Route2LinkClick(){
-    this.router.navigate(['/aboutus'], {} );
+    this.router.navigate(['/aboutus'], {} );                //added line
   }
   Route1LinkClick(){
-    this.router.navigate(['/aboutus'], {} );
+    this.router.navigate(['/aboutus'], {} );             //added line
   }
 
 }
